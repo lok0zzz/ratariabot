@@ -1,0 +1,23 @@
+{
+  "name": "RatariaBot",
+  "version": "0.0.1",
+  "description": "A Discord bot to Barzinho da Muamba",
+  "main": "index.js",
+  "repository": "https://github.com/lok0zzz/ratariabot",
+  "author": "Raul Silva (lok0zzz)",
+  "license": "MIT",
+  "dependencies": {
+    "commitizen": "^4.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "cz"
+  }
+}
